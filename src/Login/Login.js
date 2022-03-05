@@ -17,8 +17,8 @@ function Login() {
   }, [user, loading]);
   return (
     <div className="login">
-      <div className="login__container">
-        <button className="login__btn login__google" onClick={signInWithGoogle}>
+      <div className="login_container">
+        <button className="login_btn login_google" onClick={signInWithGoogle}>
           Login with Google
         </button>
       </div>
